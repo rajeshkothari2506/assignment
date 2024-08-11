@@ -1,0 +1,28 @@
+spring:
+  application:
+          name : RajeshAssignment
+  datasource:
+    url: jdbc:h2:mem:test
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: test
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+  sql:
+    init:
+      platform: h2
+  security:
+    user:
+      name: test
+      password: test
+
+file:
+  location : C:/strawag/test/section.xlsx
+server:
+  port: 7070
