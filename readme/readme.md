@@ -5,6 +5,8 @@ user name and pass is - test/test.
 
 2) It has H2 DB in the background to store the xlsx information(a sample of xlsx you can find in src/test/resources folder)
 
+(To Run this project add xlsx file in C:/strawag/test/section.xlsx location -- which you can change in application.yaml file)
+
 ![xlsx.png](xlsx.png)
 
 3) Logs we can find inside the log folder , and older logs of the application would be added inside the oldlogs folder.
@@ -13,6 +15,7 @@ user name and pass is - test/test.
 
 5) I used swagger for basic documentation of the Api.
 
+  
 Assignment : I tried to complete all points which were mentioned however, due to time constraint may be something left.
 
 Below are the APIs exposed :
